@@ -1,14 +1,15 @@
 body {
-font-family: 'Inter', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif;
- box-sizing: border-box;
-margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 h1 {
   font-size: 65px;
   font-weight: 700;
+  margin: 0;
 }
 
 .introduction {
@@ -32,11 +33,13 @@ h1 {
   background-image: url(images/donation7.jpg);
   background-repeat: no-repeat;
   height: 100vh;
-  background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken, luminosity;
   margin-bottom: 130px;
+  display: flex;
+  place-content: center;
+  align-items: center;
 }
 h2 {
   font-size: 45px;
@@ -169,23 +172,22 @@ input[type="email"] {
   margin-bottom: 250px;
 }
 
-
-footer{
-  height:147px;
-  width:100%;
+footer {
+  height: 147px;
+  width: 100%;
   background-color: black;
-  padding-top:25px;
-  bottom:0;
+  padding-top: 25px;
+  bottom: 0;
 }
-.footer-head{
+.footer-head {
   font-family: lobster;
-  color:#ff5959;
-  font-size:24px;
+  color: #ff5959;
+  font-size: 24px;
   text-align: center;
 }
-.footer-body{
-  text-align:center;
-  font-size:14px;
-  font-family:manrope;
-  color:rgba(219, 203, 203, 0.979)
+.footer-body {
+  text-align: center;
+  font-size: 14px;
+  font-family: manrope;
+  color: rgba(219, 203, 203, 0.979);
 }
