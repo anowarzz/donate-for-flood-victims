@@ -147,10 +147,10 @@ hr {
 }
 .volunteer-area img {
   margin-top: 100px;
-  padding-left: 50px;
-  border-radius: 30px;
-  padding-right: 5px;
-  border-radius: 30px;
+  height: 60%;
+  width: 100%;
+  border-radius: 6%;
+  margin-right: -100px;
 }
 .join h3 {
   font-size: 24px;
@@ -163,9 +163,9 @@ hr {
   text-align: center;
   padding-top: 20px;
   justify-content: space-evenly;
-  width: 70%;
   height: 600px;
   width: 600px;
+  margin-left: -20px;
   background-color: rgba(250, 250, 250, 0.699);
 }
 
