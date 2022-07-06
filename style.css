@@ -41,3 +41,38 @@ h2 {
 .donate-today{
   text-align: center;
 }
+.unselected-amount{
+text-align:center;
+font-size:30px;
+font-weight: 700;
+width:135px;
+height:123px;
+padding: 20px;
+background-color:#FAFAFA;
+border-radius:5px;
+margin-left: 20px;
+margin-right: 20px;
+}
+#selected-amount
+{
+text-align:center;
+font-size:30px;
+font-weight: 700;
+width:135px;
+height:123px;
+padding: 20px;
+background-color:#FFEEEE;
+border: 2px solid #ff5959;
+border-radius:5px;
+margin-left: 20px;
+margin-right: 20px; 
+}
+
+
+.flexible-container{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  justify-content: center;
+  margin-bottom:100px;
+}
